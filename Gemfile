@@ -9,6 +9,7 @@ gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'redis-actionpack'
 
 group :development, :test do
   gem 'pry-rails'
